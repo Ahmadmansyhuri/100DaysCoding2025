@@ -19,8 +19,8 @@ public class Days023 {
         
         System.out.println("\n=================================");
         System.out.println("PANJANG  \t= " +P);
-        System.out.println("LUAS     \t= " + L);
-        System.out.println("luas dari persegi panjang adalah : " + l);
+        System.out.println("LEBAR    \t= " + L);
+        System.out.println("LUAS DARI PERSEGI PANJANG : " + l);
         System.out.println("-----------------------------------");
         in.close();
     }
