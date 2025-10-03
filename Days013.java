@@ -6,25 +6,25 @@ public class Days013 {
         Scanner input = new Scanner (System.in);
         System.out.println("===SELAMAT DATANG DIPROGRAM EVALUASI JAVA===");
         
-        System.out.println("MASUKKAN NAMA MENGGUNAKAN STRING");
+        System.out.print("MASUKKAN NAMA MENGGUNAKAN STRING               \t: ");
         String nama = input.nextLine();
         
-        System.out.println("MASUKKAN NIM MENGGUNAKAN STRING");
+        System.out.print("MASUKKAN NIM MENGGUNAKAN STRING                \t: ");
         String nim = input.next();
         
-        System.out.println("MASUKKAN USIA MENGUNAKAN INT");
+        System.out.print("MASUKKAN USIA MENGUNAKAN INT                   \t: ");
         int usia = input.nextInt();
         
-        System.out.println("MASUKKAN TINGGI BADAN MENGGUNAKAN FLOAT");
-        float tb = input.nextFloat();
+        System.out.print("MASUKKAN TINGGI BADAN MENGGUNAKAN DOUBLE       \t: ");
+        double tb = input.nextFloat();
         
-        System.out.println("MASUKKAN HOBI MENGGUNAKAN STRING");
+        System.out.print("MASUKKAN HOBI MENGGUNAKAN STRING               \t: ");
         String hobi = input.next();
         
-        System.out.println("MASUKKAN STATUS MAHASISWA MENGGUNAKAN BOOLEAN");
+        System.out.print("MASUKKAN STATUS MAHASISWA MENGGUNAKAN BOOLEAN  \t: ");
         boolean sm = input.nextBoolean();
         
-        System.out.println("====BIODATA AHMAD MANSYHURI====");
+        System.out.println("\n====BIODATA AHMAD MANSYHURI====");
         System.out.println("NAMA                \t= " + nama);
         System.out.println("NIM                 \t= " + nim);
         System.out.println("UMUR                \t= " + usia);
@@ -36,9 +36,9 @@ public class Days013 {
         
         System.out.println("\n======Operasi Variabel & Update=======");
         int tabungan = 1000000;
-        int tambahan= 5000000;
-        int pengeluaran = -2000000;
-        int uangtotal = tabungan + tambahan;
+        int tambahan     = 5000000;
+        int pengeluaran  = -2000000;
+        int uangtotal    = tabungan + tambahan;
         int tabungansisa = uangtotal - pengeluaran;
         
         System.out.println("==UANG DALAM TABUNGAN SETELAH DITAMBAHKAN==");
@@ -50,7 +50,7 @@ public class Days013 {
         double PHI = 3.14159;
         System.out.print("Masukan jari-jari = ");
         double r = input.nextDouble();
-        float L = 0;
+        float L ;
 
         L =(float)(PHI * r * r);
         System.out.println("luas lingkaran = " + L);
@@ -63,9 +63,17 @@ public class Days013 {
         System.out.println("HOBI                \t= " + hobi);
         System.out.println("STATUS MAHASISWA    \t= " + sm);
         System.out.println("TABUNGAN            \t= " + tabungansisa);
-        System.out.printf ("LUAS LINGKARAN      \t=%.2f ",L);
+        System.out.printf ("LUAS LINGKARAN      \t= %.2f ",L);
         System.out.println("\n------TERIMAKASIH---------");
          
     }
     
 }
+
+        
+        
+        
+        
+    
+    
+
