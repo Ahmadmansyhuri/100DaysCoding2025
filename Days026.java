@@ -4,6 +4,14 @@ import java.util.Scanner;
 public class Days026 {
     public static void main(String[] args) {
         Scanner in = new Scanner (System.in);
+        // operator pengisian nilai
+        System.out.println("==== operator pengisian nilai ====");
+        System.out.print("Masukkan nilai x     \t: ");
+        int x = in.nextInt();
+        System.out.println("nilai x            \t: " + x);
+        System.out.print("Masukkan nilai y   \t: ");
+        int y = in.nextInt();
+        System.out.println("nilai y            \t: " + y);
         
         // operator pengisian dan pengurangan
         System.out.println("==== operator pengurangan ====");
