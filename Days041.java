@@ -5,7 +5,7 @@ public class Days041 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("=== Program Evaluasi Mnetor ===");
+        System.out.println("=== Program Evaluasi Mentor ===");
         System.out.print("Masukkan Nilai Teori : "); 
         int nilaiTeori = in.nextInt();
         System.out.print("Masukkan Nilai Praktik ");
