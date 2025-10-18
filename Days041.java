@@ -36,7 +36,7 @@ public class Days041 {
             }
             System.out.println("Predikat     \t: " + predikat);
             System.out.println("Keterangan   \t: " + keterangan);
-            System.out.println("\n================================================");
+            System.out.println("================================================");
         }
         in.close();
     }
