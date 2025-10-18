@@ -5,19 +5,19 @@ public class Days041 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("=== Program Evaluasi Mentor ===");
-        System.out.print("Masukkan Nilai Teori : "); 
+        System.out.println("====== Program Evaluasi Mentor ======");
+        System.out.print("Masukkan Nilai Teori   \t= ");
         int nilaiTeori = in.nextInt();
-        System.out.print("Masukkan Nilai Praktik ");
+        System.out.print("Masukkan Nilai Praktik \t= ");
         int nilaiPraktik = in.nextInt();
-        System.out.println("-------------------------------");
+        System.out.println("-------------------------------------");
 
         if (nilaiTeori < 0 || nilaiTeori > 100 || nilaiPraktik < 0 || nilaiPraktik > 100) {
             System.out.println("Nilai tidak valid! Harus antara 0 - 100");
         } else {
-            System.out.println("\n====================================");
-            System.out.println("Nilai Teori " + nilaiTeori);
-            System.out.println("Nilai Praktik " + nilaiPraktik);
+            System.out.println("\n================================================");
+            System.out.println("Nilai Teori   \t: " + nilaiTeori);
+            System.out.println("Nilai Praktik \t: " + nilaiPraktik);
 
             String predikat;
             String keterangan;
@@ -34,10 +34,11 @@ public class Days041 {
                 predikat = "D";
                 keterangan = "Tidak Lulus";
             }
-            System.out.println("Predikat : " + predikat);
-            System.out.println("Keterangan : " + keterangan);
-            System.out.println("====================================");
+            System.out.println("Predikat     \t: " + predikat);
+            System.out.println("Keterangan   \t: " + keterangan);
+            System.out.println("\n================================================");
         }
         in.close();
     }
 }
+
