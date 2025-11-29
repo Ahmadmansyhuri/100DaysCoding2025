@@ -1,24 +1,19 @@
 package isc100dayscooding;
-
 import java.util.Scanner;
 
-public class Days070 {
+public class Days083 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+      Scanner in = new Scanner (System.in); 
+        System.out.print("Masukkan jumlah elemen array : ");
+        int n = in.nextInt();
+        int [] array = new int [n];
+        int a = 0;
         
-        System.out.print("Masukkan panjang : ");
-        int panjang = input.nextInt();
-        
-        System.out.print("Masukkan lebar : ");
-        int lebar = input.nextInt();
-        
-        for (int i = 0; i < lebar; i++) {  // Baris
-            for (int j = 0; j < panjang; j++) {  // Kolom
-                System.out.print("* ");
-            }
-            System.out.println();
+        System.out.println("Masukkan elemem array : ");
+        for (int i = 0; i < n; i++) {
+            array[i] = in.nextInt();
+            a += array[i];
         }
-        
-        input.close();
+        System.out.println("Jumlah elemen array adalah : " + a);
     }
 }
