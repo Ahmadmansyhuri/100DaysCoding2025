@@ -1,10 +1,13 @@
 package isc100dayscooding;
 
-public class Days089 {
+public class Days090 {
+
     public static void main(String[] args) {
-        hello();
+        int hasil = kalidua(5);
+        System.out.println("5 * 2 = " + hasil);
     }
-        static void hello () {
-         System.out.println("Halo nama saya ahmad mansyhuri");
-        }
+
+    public static int kalidua(int angka) {  
+        return angka * 2;
     }
+}
