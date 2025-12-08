@@ -1,14 +1,16 @@
 package isc100dayscooding;
 
 public class Days092 {
+
+    public static int kaliDua(int x) {
+        int hasil = x * 2;
+        return hasil;
+    }
+
     public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
-        
-        if (a > b) {
-            System.out.println("a lebih besar");
-            return;
-        }
-        System.out.println("b lebih besar");
+        int angka = 5;
+        int hasilKali = kaliDua(angka);
+        System.out.println("Hasil: " + hasilKali);
+
     }
 }
